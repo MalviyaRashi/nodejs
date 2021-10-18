@@ -12,6 +12,7 @@ const key = require("../../setup/myurl");
 router.get("/", (req, res) => {
   res.json({ test: "success" });
 });
+// 
 
 //import schema for registration
 const Person = require("../../models/Person");
